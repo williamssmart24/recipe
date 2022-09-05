@@ -9,11 +9,7 @@ export default function Header() {
                 <Text style={{ color: 'gray' }}>what would you like to cook today?</Text>
             </View>
             <Image source={require("../assets/bg.jpg")}
-                style={{
-                    width: 45,
-                    height: 45,
-                    borderRadius: 20
-                }} />
+                style={{width: 45,height: 45,borderRadius: 20}} />
         </View>
     )
 }
